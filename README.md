@@ -1,2 +1,2 @@
 # guides
-Guides and notes for workflows and processing
+Guides, tutorials, and notes for workflows and processing
