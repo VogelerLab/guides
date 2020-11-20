@@ -99,10 +99,10 @@ Assign the project’s name and give it a brief description, for example: Lidar 
 ![New Repo Landing Page](./images/github_new_repo2.png) 
 
 ## Forking a repo to your personal GitHub account
-We need to Fork the CMSLidarProcessing repo to our personal GitHub account. On the VogelerLab account, and inside the project you want to copy, find and press the fork button.
+We need to Fork the CMSLidarProcessing repo to our personal GitHub account. On the VogelerLab account, and inside the project you want to copy, find and press the fork button.  
 ![Forking 1](./images/github_forking1.png) 
 
-Now you have a copy of the VogelerLab repo on your personal GitHub account. 
+Now you have a copy of the VogelerLab repo on your personal GitHub account.  
 ![Forking 2](./images/github_forking2.png) 
 
 Ok, but now we want to make some changes to this project. The change were are going to make is add a new file to the project, specifically a .gitignore file. Currently, the project is on GitHub, so we need to create a copy on our local computer.
@@ -177,7 +177,7 @@ You want to compare across forks - the base repository is VogelerLab (and the ba
 ![Create Pull Request](./images/browser_create_pull_request.png)  
 
 Create the pull request.
-Type a message. You can tell GitHub to send a message to a specific maintainer by using @ and their handle. E.g., @FevetS
+Type a message. You can tell GitHub to send a message to a specific maintainer by using @ and their handle. E.g., @FevetS  
 ![Open Pull Request](./images/browser_open_pull_request.png)  
 
 Now one of the maintainers will look at the pull request and determine whether or not to accept the change.
@@ -188,7 +188,7 @@ You will see the .gitignore file has been added to the main GitHub page for the 
 You can now delete the branch from your personal GItHub account, if you want.  
 ![Merge Pull Request](./images/browser_updated_github_page.png)
 
-On your personal GitHub account, you will see that your project is behind the original, in this case, 2 commits behind. Closer inspection shows that the first commit was adding the .gitignore on your local computer and the second commit was the merge from the pafekety:addFiles branch to VogelerLab:main. 
+On your personal GitHub account, you will see that your project is behind the original, in this case, 2 commits behind. Closer inspection shows that the first commit was adding the .gitignore on your local computer and the second commit was the merge from the pafekety:addFiles branch to VogelerLab:main.  
 ![Personal GitHub Account](./images/browser_post_merge.png)  
 
 You could either use GitHub to bring your personal branch up to date by initiating a pull request and accepting the merge or in Git Bash  
