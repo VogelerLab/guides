@@ -7,14 +7,12 @@ GitHub is an online repository for code that is based on Git.
 Git keeps tracks changes to files and allows you (or others) to view changes and revert changes.
 Git also allows you (or others) to copy all the files in a repository, make changes, and submit those changes back to the main repository
 
-Do not put code into a sync service folder (like Google Drive) when cloning locally. Occasionally lead to corruption of the repo (https://stackoverflow.com/questions/42837746/why-is-google-drive-deleting-my-git-files)
+Do not put code into a sync service folder (like Google Drive) when cloning locally. Occasionally this can lead to corruption of the repo (https://stackoverflow.com/questions/42837746/why-is-google-drive-deleting-my-git-files)
 
-Git Bash is a unix-style command window. 
-List of some useful commands
-
+Git Bash is a Unix-style command window. Here are some useful commands:  
 `ls -a` #list all files in directory  
 `cd` # change directory  
-`~` # this is a shortcut to your root directory, e.g., cd ~  
+`~` # this is a shortcut to your root directory, e.g., `cd ~`  
 `pwd` #prints working directory  
 `touch temp.txt` #create a new (empty) file named temp.txt  
 `rm temp.txt` #deletes the file named temp.txt  
@@ -23,7 +21,7 @@ List of some useful commands
 
 In the Vogeler Lab, we use the Forking Workflow.
 
-<span style="text-decoration: underline">Random  Terms</span>  
+<span style="text-decoration: underline">Random Terms</span>  
 Repo - Repository. A data space to store all the files related to a project.  
 Hash / SHA - This a 40-character code that identifies different versions of your project.   
 HEAD - The HEAD can be understood as the "current branch." The HEAD points out the last commit in the current checkout branch.  
@@ -57,7 +55,11 @@ The pull request gets approved for merge and is merged into the original server-
 
 ### Sources to help learning Git and GitHub  
 https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow  
-https://www.dataschool.io/simple-guide-to-forks-in-github-and-git/   
+https://www.dataschool.io/simple-guide-to-forks-in-github-and-git/  
+http://git-scm.com/docs  
+https://training.github.com/  
+https://lab.github.com/ This is the GitHub Learning Lab. There are a series of modules you can complete using Git and GitHub. These are very hands on and your work is check by a bot.
+  
 
 ## Installing Git
 Git is downloaded from https://git-scm.com/downloads  
@@ -66,8 +68,12 @@ Git is downloaded from https://git-scm.com/downloads
 Download the appropriate installer and run.
 
 You can accept the default settings; however, there is one change you should consider. It is not necessary to adjust the PATH environment. Instead, opt for the “use Git Bash” only option.  
-![Setting Path Parameter](./images/git_set_path.png)
- 
+![Setting Path Parameter](./images/git_set_path.png)  
+There are a few other non-default settings, you might want to consider.  
+The default branch name on GitHub used to be called "master" but is now called "main". The default branch on Git is "master" and is in the process of changing this to "main". You may be given a option to select your default branch. If so, enter "main".
+![Git Select Default Branch Name](./images/git_main.png)
+You can always change the Git default branch name using the following command `git config --global init.defaultBranch NEW_BRANCH_NAME`   
+Another non-default installation setting is whether or not you want to use the Git Credential Manager log you into your GitHub account. This is a nice feature because you log in one time and the credential manager does the rest. You might not want to use this option if you have multiple GitHub accounts. Sorry, but I don't have a screen shot of this window.  
 
 Open Git Bash, which is the command window that we will use. It looks like this:  
 ![Git Bash Console](./images/git_bash_prompt.png)
@@ -87,7 +93,10 @@ to view all the configuration settings, type:
 To view which directory you are currently in, print the working directory (this is not a git command, but GitBash command)
 `pwd`
 
-use `cd` to change directories
+use `cd` to change directories  
+
+#### Updating Git
+I haven't updated Git, but this is the command: `git update-git-for-windows`  
 
 ## Starting a new project on VogelerLab
 Log on to GitHub and navigate to the VogelerLab organization  
