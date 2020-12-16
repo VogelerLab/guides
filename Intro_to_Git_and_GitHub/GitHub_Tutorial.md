@@ -71,7 +71,7 @@ You can accept the default settings; however, there is one change you should con
 ![Setting Path Parameter](./images/git_set_path.png)  
 There are a few other non-default settings, you might want to consider.  
 The default branch name on GitHub used to be called "master" but is now called "main". The default branch on Git is "master" and is in the process of changing this to "main". You may be given a option to select your default branch. If so, enter "main".
-![Git Select Default Branch Name](./images/git_main.png)
+![Git Select Default Branch Name](./images/git_main.png)  
 You can always change the Git default branch name using the following command `git config --global init.defaultBranch NEW_BRANCH_NAME`   
 Another non-default installation setting is whether or not you want to use the Git Credential Manager log you into your GitHub account. This is a nice feature because you log in one time and the credential manager does the rest. You might not want to use this option if you have multiple GitHub accounts. Sorry, but I don't have a screen shot of this window.  
 
