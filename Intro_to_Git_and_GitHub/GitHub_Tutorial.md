@@ -202,3 +202,22 @@ On your personal GitHub account, you will see that your project is behind the or
 
 You could either use GitHub to bring your personal branch up to date by initiating a pull request and accepting the merge or in Git Bash  
 `git remote add upstream git://github.com/VogelerLab/CMSLidarProcessing.git`
+
+
+## Updating your forked branch so it is even with VogelerLab  
+
+After you initiate a pull request, and your changes have been successful merged into the VogelerLab repo, you will notice that the forked repo on your personal account is behind by 1 commit (it's behind because the act of merging during your pull request initiated a new commit). Or after some time, the repo on your personal GithHub page might be behind because other lab members have updated the VogelerLab version. These instructions are based on https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository  
+
+We can update your personal GitHub repo by using the "rebase" command. Here's how you can rebase using the Git Bash.  
+
+Clone your personal GitHub repo to your local machine.  `git clone https://github.com/pafekety/GLRI.git`  
+
+Add a remote that named upstream that "points" to the VogelerLab repo.  `git remote add upstream https://github.com/VogelerLab/GLRI.git`  
+
+Check for changes.   `git fetch upstream`
+
+Make sure you are on the main branch.  `git checkout main`  
+
+Rebase your *local* repo.  `git rebase upstream/main`  
+
+Update the personal GitHub repo.  `git push -f origin main`
