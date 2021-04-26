@@ -30,15 +30,7 @@ Fetch - Downloading code from a remote repository to a local repository without 
 
 
 ## Forking Workflow  
-In the Vogeler Lab, we use the Forking Workflow. A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.  
-The new server-side copy is cloned to their local system.  
-A Git remote path for the 'official' repository is added to the local clone. A new local feature branch is created.  
-The developer makes changes on the new branch.  
-New commits are created for the changes.  
-The branch gets pushed to the developer's own server-side copy.  
-The developer opens a pull request from the new branch to the 'official' repository.  
-The pull request gets approved for merge and is merged into the original server-side repository.  
-
+In the Vogeler Lab, we use the Forking Workflow.
 A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.  
 The new server-side copy is cloned to their local system.  
 A Git remote path for the 'official' repository is added to the local clone.  
@@ -47,7 +39,7 @@ The developer makes changes on the new branch.
 New commits are created for the changes.  
 The branch gets pushed to the developer's own server-side copy.  
 The developer opens a pull request from the new branch to the 'official' repository.  
-The pull request gets approved for merge and is merged into the original server-side repository  
+The pull request gets approved for merge and is merged into the original server-side repository.  
 ![Forking Diagram](./images/forking_diagram.png)
 
 ### Sources to help learning Git and GitHub  
