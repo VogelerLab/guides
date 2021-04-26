@@ -18,9 +18,6 @@ Git Bash is a Unix-style command window. Here are some useful commands:
 `rm temp.txt` #deletes the file named temp.txt  
 `clear` #clears the console
 
-
-In the Vogeler Lab, we use the Forking Workflow.
-
 <span style="text-decoration: underline">Random Terms</span>  
 Repo - Repository. A data space to store all the files related to a project.  
 Hash / SHA - This a 40-character code that identifies different versions of your project.   
@@ -32,8 +29,8 @@ Pull - Downloading code from a remote repository and automatically updates (i.e.
 Fetch - Downloading code from a remote repository to a local repository without merging changes.  
 
 
-## Forking Workflow
-A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.  
+## Forking Workflow  
+In the Vogeler Lab, we use the Forking Workflow. A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.  
 The new server-side copy is cloned to their local system.  
 A Git remote path for the 'official' repository is added to the local clone. A new local feature branch is created.  
 The developer makes changes on the new branch.  
