@@ -210,3 +210,13 @@ Make sure you are on the main branch.  `git checkout main`
 Rebase your *local* repo.  `git rebase upstream/main`  
 
 Update the personal GitHub repo.  `git push -f origin main`
+
+## Importing an Existing Repo
+In some cases you may have been working on code and performing version control using git or subversion with your personal host like GitHub or BitBucket but now you wish to transfer that code (and version history) to the VogelerLab account. To do this you can simply import from your personal host to VogelerLab using the GitHub importer.  
+
+On any VogelerLab GitHub page simply click the + symbol in the upper right hand corner and click on "Import Repository".
+
+On the following page you'll enter in the URL of your personal repository. The name for the new repository and whether to make it public or private.
+
+This is a simple process, but you can find additional details in GitHub's [importing projects documentation](https://docs.github.com/en/github/importing-your-projects-to-github/importing-a-repository-with-github-importer).
+
