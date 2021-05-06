@@ -16,13 +16,16 @@ Git Bash is a Unix-style command window. Here are some useful commands:
 `pwd` #prints working directory  
 `touch temp.txt` #create a new (empty) file named temp.txt  
 `rm temp.txt` #deletes the file named temp.txt  
-`clear` #clears the console
+`clear` #clears the console  
+`q` # brings you back to the git prompt after running `git diff`  
 
 <span style="text-decoration: underline">Random Terms</span>  
 Repo - Repository. A data space to store all the files related to a project.  
 Hash / SHA - This a 40-character code that identifies different versions of your project.   
 HEAD - The HEAD can be understood as the "current branch." The HEAD points out the last commit in the current checkout branch.  
-Local - A repository is the one on which we will make local changes, typically this local repository is on our computer.  
+Upstream - Generally refers to the original repo that you have forked. This is the version that resides on the VoglerLab GitHub account (or another GitHub account).  
+Origin - A clone of the original repo of GitHub that resides on your personal GitHub account.  
+Local - A repository is the one on which we will make local changes, typically this local repository is on our computer or on RStor.  
 Remote - A repository is the one of the server.  
 Push - Uploading code (e.g., changes) from a local repository to a remote repository.  
 Pull - Downloading code from a remote repository and automatically updates (i.e., merges) the changes to the working directory of your local repository.  
@@ -193,7 +196,7 @@ You could either use GitHub to bring your personal branch up to date by initiati
 `git remote add upstream git://github.com/VogelerLab/CMSLidarProcessing.git`
 
 
-## Updating your forked branch so it is even with VogelerLab  
+## Updating your fork so it is even with VogelerLab  
 
 After you initiate a pull request, and your changes have been successful merged into the VogelerLab repo, you will notice that the forked repo on your personal account is behind by 1 commit (it's behind because the act of merging during your pull request initiated a new commit). Or after some time, the repo on your personal GithHub page might be behind because other lab members have updated the VogelerLab version. These instructions are based on https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository  
 
@@ -210,6 +213,11 @@ Make sure you are on the main branch.  `git checkout main`
 Rebase your *local* repo.  `git rebase upstream/main`  
 
 Update the personal GitHub repo.  `git push -f origin main`
+
+## Deleting forks  
+
+After your pull request has been approved, consider deleting your branch (This can even be performed from GitHub as part of the Pull Request operations). Deleting branches reduces clutter. To delete a branch using Git Bash, type the following command `git branch -d myBranchName`.  
+
 
 ## Importing an Existing Repo
 In some cases you may have been working on code and performing version control using git or subversion with your personal host like GitHub or BitBucket but now you wish to transfer that code (and version history) to the VogelerLab account. To do this you can simply import from your personal host to VogelerLab using the GitHub importer.  
