@@ -21,12 +21,12 @@ Git Bash is a Unix-style command window. Here are some useful commands:
 
 <span style="text-decoration: underline">Random Terms</span>  
 Repo - Repository. A data space to store all the files related to a project.  
-Hash / SHA - This a 40-character code that identifies different versions of your project.   
+Hash / SHA - This a 40-character code that identifies different versions (or "commits") of your project.   
 HEAD - The HEAD can be understood as the "current branch." The HEAD points out the last commit in the current checkout branch.  
-Upstream - Generally refers to the original repo that you have forked. This is the version that resides on the VoglerLab GitHub account (or another GitHub account).  
-Origin - A clone of the original repo of GitHub that resides on your personal GitHub account.  
-Local - A repository is the one on which we will make local changes, typically this local repository is on our computer or on RStor.  
-Remote - A repository is the one of the server.  
+Upstream - The conventional name for the source of the original repo that you have forked. This is the version that resides on the VoglerLab GitHub account (or another GitHub account).  
+Origin - The conventional name for your fork of the original repo. This is the version that resides on your personal GitHub account.  
+Local - The conventional name for the copy of a repository that you'll make changes to and actively be working on. Typically this local repository is on your computer or on RStor.  
+Remote - A repository stored on a remote server (e.g. your personal GitHub or another GitHub account).  
 Push - Uploading code (e.g., changes) from a local repository to a remote repository.  
 Pull - Downloading code from a remote repository and automatically updates (i.e., merges) the changes to the working directory of your local repository.  
 Fetch - Downloading code from a remote repository to a local repository without merging changes.  
@@ -216,7 +216,7 @@ Update the personal GitHub repo.  `git push -f origin main`
 
 ## Deleting forks  
 
-After your pull request has been approved, consider deleting your branch (This can even be performed from GitHub as part of the Pull Request operations). Deleting branches reduces clutter. To delete a branch using Git Bash, type the following command `git branch -d myBranchName`.  
+After your pull request has been approved, consider deleting your branch on GitHub (This can even be performed from GitHub as part of the Pull Request operations). Deleting branches reduces clutter. To delete a branch on your local clone using Git Bash, type the following command `git branch -d myBranchName`.  
 
 
 ## Importing an Existing Repo
