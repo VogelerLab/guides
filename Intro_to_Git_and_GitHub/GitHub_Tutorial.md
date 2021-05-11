@@ -228,3 +228,11 @@ On the following page you'll enter in the URL of your personal repository. The n
 
 This is a simple process, but you can find additional details in GitHub's [importing projects documentation](https://docs.github.com/en/github/importing-your-projects-to-github/importing-a-repository-with-github-importer).
 
+
+## Graphical User Interfaces for git
+The basic git operations are typically taught and applied through the command-line interface (CLI) as demonstrated above. The CLI gives you a great deal of flexibility and also clarity in the operations being performed. For those reasons it's best to be familiar with the CLI, but many people also choose to use a Graphical User Interface (GUI) for git because of some additional features it provides, particularly in visualizing changes and version history. 
+
+A GUI such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/) can perform all of the same basic git operations (e.g. pull, push, commit, etc), but also makes it easy to see what changes have been made to individual files and in past commits, stage hunks of code within a file for a commit, visualize the version history, and more. Most of these GUI programs work as an interface to the command-line operations so you can see what command is being performed or you can choose to use a CLI interface to make operations and see the changes through the GUI. RStudio and Jupyter also both have the ability to make git operations. If you want to see what one of the GUIs looks like in practice and whether you'll find them beneficial check out this video:
+
+[![GitKraken Beginner Tutorial](./images/gitkraken_tutorial_youtube.png)](https://www.youtube.com/watch?v=ub9GfRziCtU)
+
