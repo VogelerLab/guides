@@ -100,7 +100,7 @@ Assign the project’s name and give it a brief description, for example: Lidar 
 ![New Repo Landing Page](./images/github_new_repo2.png) 
 
 ## Forking a repo to your personal GitHub account
-We need to Fork the CMSLidarProcessing repo to our personal GitHub account. On the VogelerLab account, and inside the project you want to copy, find and press the fork button.  
+We need to Fork the CMSLidarProcessing repo to our personal GitHub account. On the VogelerLab account, and inside the project you want to copy, find and press the fork button (hint: the fork button is in the upper right corner).  
 ![Forking 1](./images/github_forking1.png) 
 
 Now you have a copy of the VogelerLab repo on your personal GitHub account.  
